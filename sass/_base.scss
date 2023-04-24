@@ -16,7 +16,7 @@ $font-display: "Josefin Sans", sans-serif;
 
 html {
   box-sizing: border-box;
-  font-size: 62.5%; // 1 rem = 10px (10px/16px = 0.625)
+  font-size: 62.5%; // 1rem = 10px (10px/16px = 0.625)
 }
 
 *,
@@ -40,11 +40,11 @@ body {
     [sidebar-start] 8rem
     [sidebar-end full-start]
     minmax(6rem, 1fr) [center-start]
-    repeat(8, [col-stat] minmax(min-content, 14rem) [col-end])
+    repeat(8, [col-start] minmax(min-content, 14rem) [col-end])
     [center-end] minmax(6rem, 1fr) [full-end];
 
-  & > * {
-    padding: 40px;
-    font-size: 3rem;
-  }
+  // & > * {
+  //   padding: 40px;
+  //   font-size: 3rem;
+  // }
 }
